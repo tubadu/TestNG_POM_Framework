@@ -1,0 +1,8 @@
+2020-07-23 19:45:54,732  INFO [main] LoginPageTest:52 - url is launched https://app.hubspot.com/login
+2020-07-23 19:45:54,753  INFO [main] LoginPageTest:63 - starting ------------>>>>> verify loginpagetest
+2020-07-23 19:45:59,284  INFO [main] LoginPageTest:67 - ending ------------>>>>> verify loginpagetest
+2020-07-23 19:45:59,284  WARN [main] LoginPageTest:68 - some warning 
+2020-07-23 19:45:59,284 ERROR [main] LoginPageTest:69 - some error 
+2020-07-23 19:45:59,285 FATAL [main] LoginPageTest:70 - Fatal error
+2020-07-23 19:46:00,565  INFO [main] LoginPageTest:52 - url is launched https://app.hubspot.com/login
+2020-07-23 19:46:02,383  INFO [main] LoginPageTest:52 - url is launched https://app.hubspot.com/login
