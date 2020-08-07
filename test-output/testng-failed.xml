@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Hubspot Regression Test Suite]">
-  <parameter name="browser" value="chrome"/>
-  <listeners>
-    <listener class-name="com.qa.hubspot.listener.TestAllureListener"/>
-  </listeners>
-  <test name="Hubspot Functional Regression Test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="com.qa.hubspot.test.HomePageTest"/>
       <class name="com.qa.hubspot.test.LoginPageTest"/>
     </classes>
-  </test> <!-- Hubspot Functional Regression Test -->
-  <test name="Hubspot Functional Regression Test(failed)">
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.hubspot.test.HomePageTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="Setup"/>
-        </methods>
-      </class> <!-- com.qa.hubspot.test.HomePageTest -->
       <class name="com.qa.hubspot.test.LoginPageTest">
         <methods>
           <include name="VerifySignupLinkTest"/>
-          <include name="teardown"/>
           <include name="loginTest"/>
-          <include name="SetUp"/>
+          <include name="verifypageTitle"/>
         </methods>
       </class> <!-- com.qa.hubspot.test.LoginPageTest -->
     </classes>
-  </test> <!-- Hubspot Functional Regression Test(failed) -->
-</suite> <!-- Failed suite [Hubspot Regression Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
